@@ -48,7 +48,7 @@ class TopRated extends React.Component {
     const {results} = topRatedMovieResponse
 
     return (
-      <ul className="row p-0 ms-0 me-0 mt-3 ul-list">
+      <ul className="row p-0 ms-0 me-0 mt-3">
         {results.map(movie => (
           <MovieCard key={movie.id} movieDetails={movie} />
         ))}

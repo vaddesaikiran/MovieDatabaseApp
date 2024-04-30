@@ -44,6 +44,8 @@ class Pagination extends React.Component {
 
   render() {
     const {pageNo} = this.state
+    // eslint-disable-next-line
+    const {totalPages} = this.props
 
     return (
       <div className="mb-3 d-flex justify-content-center align-items-center">
